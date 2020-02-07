@@ -1,0 +1,29 @@
+Create a database of tournament results that pulls data automatically
+	-Define the data set and types
+	-Pull data from specific sources and update tables weekly/daily
+	-Should be able to export database to CSV or spreadsheet
+
+Data types and sources to pull from:
+	-Challonge
+	-Smash.gg
+
+	-Players
+		-ID
+		-Tag
+		-# of Tournaments
+
+	-Match
+		-ID
+		-Player 1
+		-Player 2
+		-Games won p1
+		-Games won p2
+
+	-Tournament
+		-Event Name - KEY
+		-List of matches
+
+	-Head to Head
+		-Player 1 - KEY
+		-Player 2 - KEY
+		-Record as Player 1 win percentage
