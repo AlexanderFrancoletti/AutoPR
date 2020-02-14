@@ -14,14 +14,15 @@ Data types and sources to pull from:
 
 	-Match
 		-ID
+		-Tourney ID
 		-Player 1
 		-Player 2
 		-Games won p1
 		-Games won p2
 
 	-Tournament
+		-ID
 		-Event Name - KEY
-		-List of matches
 
 	-Head to Head
 		-Player 1 - KEY
