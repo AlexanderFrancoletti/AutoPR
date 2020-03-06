@@ -3,6 +3,12 @@ Create a database of tournament results that pulls data automatically
 	-Pull data from specific sources and update tables weekly/daily
 	-Should be able to export database to CSV or spreadsheet
 
+Specific files/functions I want
+DatabaseInit - Just run once and it will setup the tables and database
+Settings - Should make a script that can edit this file with the url, beginning date for the database, and the last time results were added
+ResultScraper - Should take info from the settings file and use it to add results to the database
+
+
 Data types and sources to pull from:
 	-Challonge
 	-Smash.gg
