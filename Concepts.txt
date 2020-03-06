@@ -34,3 +34,11 @@ Data types and sources to pull from:
 		-Player 1 - KEY
 		-Player 2 - KEY
 		-Record as Player 1 win percentage
+
+
+Potential solutions:
+Challonge has a REST api for tournaments and matches
+Set the most recent update date as the last time the automator ran
+Grab tournament ids from events by specifics users after the most recent update date
+For each tournament id, grab the match data for the tournament and store the tournment data
+Parse the match data into the player data, match data, and h2h results tables
