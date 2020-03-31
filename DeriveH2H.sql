@@ -18,5 +18,4 @@ GROUP BY
 	p1.tag,
 	p2.tag
 
-
 --Setup a subquery/with statement to get both values to use to calculate the winrate
