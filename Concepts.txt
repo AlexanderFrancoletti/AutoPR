@@ -42,3 +42,11 @@ Set the most recent update date as the last time the automator ran
 Grab tournament ids from events by specifics users after the most recent update date
 For each tournament id, grab the match data for the tournament and store the tournment data
 Parse the match data into the player data, match data, and h2h results tables
+
+
+HOW TO GO ABOUT CONSUMING REST DATA INTO AUTOPR DATA
+
+1 - Consume the rest from challonge using a client
+2 - Store the important data as a file in the same folder as the sql scripts
+2.5 - Parse data into proper format
+3 - Create an sql script that can take the data and insert it into the database
